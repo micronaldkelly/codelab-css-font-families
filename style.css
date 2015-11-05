@@ -1,0 +1,11 @@
+body  {
+  font-family: "Open Sans", "sans-serif", "Times New Roman", Verdana, "wing-dings";
+}
+@font-face {
+  font-family: 'MyWebFont';
+  src:  url('myfont.woff2') format('woff2'),
+  url('myfont.woff') format('woff');
+}
+p{
+  font-family: 'MyWebFont', Fallback, sans-serif;
+}
